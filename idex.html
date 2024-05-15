@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Document title -->
     <title>Italian Restaurant</title>
+    <!-- Link to external stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Link to external JavaScript file -->
     <script src="script.js"></script>
 </head>
 <body>
+    <!-- Header section -->
     <div class="header">
         <h1>Welcome to Our Italian Restaurant</h1>
     </div>
+    <!-- Navigation bar -->
     <div class="nav">
         <a href="#menu" onclick="showSection('menu')">Menu</a>
         <a href="#location" onclick="showSection('location')">Location</a>
         <a href="#contact" onclick="showSection('contact')">Contact Us</a>
         <a href="#order" onclick="showSection('order')">Order</a>
     </div>
+    <!-- Main content section -->
     <div class="content">
+        <!-- Menu section -->
         <div id="menu">
             <h2>Our Menu</h2>
             <p>Antipasti: Bruschetta, Caprese Salad, Arancini</p>
@@ -23,19 +30,23 @@
             <p>Secondi: Chicken Parmigiana, Grilled Sea Bass, Osso Buco</p>
             <p>Dolci: Tiramisu, Gelato, Panna Cotta</p>
         </div>
+        <!-- Location section -->
         <div id="location">
             <h2>Our Location</h2>
-            <p>Address: 123 Pasta Lane , london</p>
+            <p>Address: 123 Pasta Lane, London</p>
             <p>Hours: Monday-Sunday, 12 PM - 11 PM</p>
         </div>
+        <!-- Contact section -->
         <div id="contact">
             <h2>Contact Us</h2>
             <p>Phone: +20 123 456 7890</p>
             <p>Email: contact@italianrestaurant.com</p>
-            <p>Address: 123 Pasta Lane,london</p>
+            <p>Address: 123 Pasta Lane, London</p>
         </div>
+        <!-- Order section -->
         <div id="order">
             <h2>Place an Order</h2>
+            <!-- Order form -->
             <form id="orderForm">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name"><br>
@@ -52,6 +63,7 @@
             </form>
         </div>
     </div>
+    <!-- Footer section -->
     <div class="footer">
         © 2024 Italian Restaurant
     </div>
